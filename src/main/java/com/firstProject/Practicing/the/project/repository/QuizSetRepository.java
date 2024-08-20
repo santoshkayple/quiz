@@ -1,13 +1,11 @@
 package com.firstProject.Practicing.the.project.repository;
 
-import com.firstProject.Practicing.the.project.entity.Set;
+import com.firstProject.Practicing.the.project.entity.QuizSet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
-
 @Repository
-public interface SetRepository extends JpaRepository<Set, Long> {
+public interface QuizSetRepository extends JpaRepository<QuizSet, Long> {
 
 //    Optional<Set> findByUsername(String username);
 }
